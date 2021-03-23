@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(240, 247, 255);
+}
+.container {
+  /* background-color: rgb(205, 226, 247); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.movies {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: repeat(7, 700px);
+  gap: 50px;
+  
+}
